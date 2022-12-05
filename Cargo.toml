@@ -14,4 +14,9 @@ openssl = "0.10.42"
 
 [dev-dependencies]
 http = "0.2.8"
+ntex-connect = "0.1.0"
+
+
+#[patch.crates-io]
+#ntex-connect = {git="https://github.com/jm-observer/ntex.git"}
 
